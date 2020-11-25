@@ -69,3 +69,32 @@
 .item:not(:first-child) {
   margin-top: 16px;
 }
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.heading .text {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.heading .wrapper {
+  position: relative;
+}
+
+.heading .wrapper .offset {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.heading .wrapper .offset .text {
+  white-space: nowrap;
+  color: #E60023;
+}
