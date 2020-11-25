@@ -8,6 +8,15 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 252px);
+
+  pointer-events: none;
+  visibility: hidden;
+  max-height: 0;
+  &.active {
+    max-height: unset;
+    visibility: visible;
+    pointer-events: auto;
+  }
 }
 
 .col {
