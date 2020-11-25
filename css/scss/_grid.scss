@@ -18,9 +18,9 @@
   $margin: 0;
   @for $i from 1 through 7 {
     @if $i > 4 {
-      $margin: $margin - 160px;
+      $margin: $margin - 90px;
     } @else {
-      $margin: $margin + 160px;
+      $margin: $margin + 90px;
     }
     &:nth-child(#{$i}) {
       margin-top: $margin;
