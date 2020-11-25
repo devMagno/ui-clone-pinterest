@@ -149,30 +149,37 @@
 
 .col:nth-child(1) {
   margin-top: 90px;
+  transition-delay: 0s;
 }
 
 .col:nth-child(2) {
   margin-top: 180px;
+  transition-delay: 0.2s;
 }
 
 .col:nth-child(3) {
   margin-top: 270px;
+  transition-delay: 0.4s;
 }
 
 .col:nth-child(4) {
   margin-top: 360px;
+  transition-delay: 0.6s;
 }
 
 .col:nth-child(5) {
   margin-top: 270px;
+  transition-delay: 0.8s;
 }
 
 .col:nth-child(6) {
   margin-top: 180px;
+  transition-delay: 1s;
 }
 
 .col:nth-child(7) {
   margin-top: 90px;
+  transition-delay: 1.2s;
 }
 
 .item {

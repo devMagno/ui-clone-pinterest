@@ -25,6 +25,7 @@
     }
     &:nth-child(#{$i}) {
       margin-top: $margin;
+      transition-delay: #{$columns-transition-delay * ($i - 1)};
     }
   }
 }
