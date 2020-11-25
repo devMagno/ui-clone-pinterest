@@ -12,6 +12,108 @@
   list-style: none;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 28px 15px 24px;
+}
+
+.header h3 {
+  color: #E60023;
+  font-weight: 700;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.header nav ul li {
+  padding: 16px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #111;
+  font-weight: 700;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.header .buttons {
+  display: flex;
+}
+
+.header .buttons button {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 11px 12px;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.header .buttons button.login {
+  color: #FFF;
+  background-color: #E60023;
+}
+
+.header .buttons button.login:hover {
+  background-color: #bd001d;
+}
+
+.header .buttons button.sign-up {
+  margin-left: 16px;
+  background-color: #EFEFEF;
+}
+
+.header .buttons button.sign-up:hover {
+  background-color: #d6d6d6;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.heading .text {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.heading .wrapper {
+  position: relative;
+}
+
+.heading .wrapper .offset {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.heading .wrapper .offset .text {
+  white-space: nowrap;
+  color: #E60023;
+}
+
 .grid-container {
   display: flex;
   flex-direction: column;
@@ -68,33 +170,4 @@
 
 .item:not(:first-child) {
   margin-top: 16px;
-}
-
-.heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 120px;
-}
-
-.heading .text {
-  font-size: 60px;
-  font-weight: bold;
-}
-
-.heading .wrapper {
-  position: relative;
-}
-
-.heading .wrapper .offset {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateX(-50%);
-}
-
-.heading .wrapper .offset .text {
-  white-space: nowrap;
-  color: #E60023;
 }
