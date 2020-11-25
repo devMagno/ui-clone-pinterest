@@ -11,3 +11,61 @@
 *, li {
   list-style: none;
 }
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 252px);
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col:nth-child(1) {
+  margin-top: 160px;
+}
+
+.col:nth-child(2) {
+  margin-top: 320px;
+}
+
+.col:nth-child(3) {
+  margin-top: 480px;
+}
+
+.col:nth-child(4) {
+  margin-top: 640px;
+}
+
+.col:nth-child(5) {
+  margin-top: 480px;
+}
+
+.col:nth-child(6) {
+  margin-top: 320px;
+}
+
+.col:nth-child(7) {
+  margin-top: 160px;
+}
+
+.item {
+  width: 236px;
+  height: 350px;
+  background-color: #E60023;
+  border-radius: 10px;
+}
+
+.item:not(:first-child) {
+  margin-top: 16px;
+}
