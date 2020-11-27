@@ -16,6 +16,9 @@
 ---
 
 ## 🖥️ Demonstração
+[![UI Clone: Pinterest](https://i.imgur.com/PAUUED1.png "Clique para acessar o projeto")](https://devmagno.github.io/ui-clone-pinterest/ "Clique para acessar o projeto") 
+
+Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/ui-clone-pinterest/).
 
 ---
 
