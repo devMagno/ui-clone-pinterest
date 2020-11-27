@@ -4,6 +4,7 @@
 </p>
 
 ## 📖 Sobre   
+O projeto **UI clone** da página inicial do **Pinterest** foi desenvolvido durante um tutorial da [Rocketseat](https://www.youtube.com/c/RocketSeat/videos), seguindo o projeto original de [Guilherme Rodz](https://github.com/guilhermerodz), para fins de estudo de **SASS** e **JavaScript**. O projeto foi desenvolvido utilizando **HTML5**, **SASS** (posteriormente convertido para CSS), e **JavaScript**, para as **animações de entrada e saída** de imagens e textos, além de [Lorem Picsum](https://picsum.photos/) para geração de imagens aleatórias.
 
 ---
 
