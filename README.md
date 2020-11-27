@@ -8,7 +8,10 @@
 ---
 
 ## 🚀 Tecnologias e ferramentas utilizadas
-
+- **HTML5**
+- **SASS**
+- **JavaScript**
+- **Scout App** (compilador de SASS)
 
 ---
 
